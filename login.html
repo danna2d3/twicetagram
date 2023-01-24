@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./log.png">
+    <style>
+        :root {
+            --tw1:#fccfa6;
+            --tw2:#fdb3a5;
+            --tw3:#fe97a4;
+            --tw4:#fe7ba3;
+            --tw5:#ff5fa2;
+            --bak:#ecdcd3;
+            --sm: 14px;
+            --md: 16px;	
+            --lg: 18px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Fuzzy Bubbles', cursive;  
+            cursor: url(http://www.rw-designer.com/cursor-extern.php?id=105818), auto;                 
+        }
+        /*  {  
+         background: var(--bak) 
+        }*/
+        .logo {
+            width: 100px;
+            margin-bottom: 10px;
+            justify-self: center;
+            display: none;
+        }
+        .login {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        
+        .form-container {
+            display: grid;
+            grid-template-rows: auto 1fr 
+            auto;
+            width: 300px;
+        }
+        .title {
+            font-size: var(--lg);
+            margin-bottom: 35px;
+            text-align: start;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            margin-top: -10px;
+
+        }
+        .form div{
+            display: flex;
+            flex-direction: column;
+        }
+        .label {
+            font-size: var(--sm);
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+        .input {
+            background-color: var(--tw2);
+            border: none;
+            border-radius: 8px;
+            height: 30px;
+            font-size: var(--md);
+            padding: 6px;
+            margin-bottom: 12px;
+        }
+        .input-name,
+        .input-email,
+        .input-password {
+            margin-bottom: 22px;
+        }
+        .primary-buttom {
+            background-color: var(--tw5);
+            border-radius: 8px;
+            border: none;
+            color: #ffffff;
+            cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;  
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+        }
+        .primary-buttom:hover {
+            background-color: var(--tw4);
+            cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;  
+        }
+        .login-buttom {
+            margin-top: 14px;
+            margin-bottom: 30px;
+        }
+        .login{
+            background-image: url(https://wallpaperaccess.com/full/2641051.gif);
+        }
+        
+        @media (min-width: 600px) {
+            .logo {
+                display: block;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .form-container {
+                height: 300px;
+                margin-top: -200px;
+            }
+            .form {
+                height: -100px;
+                margin-bottom: 40px;
+                justify-content: space-between;
+                margin-top: -10px;
+            }
+            .login-buttom{
+                height: 50px;
+            }
+            .logo {
+                display: block;
+                margin-top: -20px;
+            }
+            .title{
+                margin-top:5px;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+        
+    <div class="login">  
+    <div class="form-container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_of_TWICE.svg/640px-Logo_of_TWICE.svg.png" alt="logo" 
+        class="logo">
+        <h1 class="title">My account</h1>       
+        <form action="/" class="form">                 
+            <div>           
+                <label for="name"
+                class="label">name</label>
+                <input type="text" 
+                id="name" placeholder="Jihyo"
+                class="input input-name">
+    
+                <label for="email"
+                class="label">email</label>
+                <input type="text" 
+                id="email" placeholder="yourname@twicetagram.com"
+                class="input input-email">
+    
+                <label for="password"
+                class="label">password</label>
+                <input type="password" 
+                id="password" placeholder="*****"
+                class="input input-password">
+            </div>
+            <input type="submit" 
+            value="Login" class="primary-buttom
+            login-buttom">
+            
+            <a href="./index.html"></a>
+        </form>
+    </div>
+    </div>
+</body>
+
+
+</html>
