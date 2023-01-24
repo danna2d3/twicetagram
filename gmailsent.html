@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root {
+            --tw1:#fccfa6;
+            --tw2:#fdb3a5;
+            --tw3:#fe97a4;
+            --tw4:#fe7ba3;
+            --tw5:#ff5fa2;
+            --bak:#ecdcd3;
+            --sm: 14px;
+            --md: 16px;	
+            --lg: 18px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Fuzzy Bubbles', cursive;            
+        }
+        * {
+        background: var(--bak)
+        }
+        .login {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        }
+        .form-container {
+            display: grid;
+            grid-template-rows: auto 1fr 
+            auto;
+            width: 300px;
+            justify-items: center;
+        }
+        .logo {
+            width: 100px;
+            margin-bottom: 10px;
+            justify-self: center;
+            display: none;
+        }
+        .title {
+            font-size: var(--lg);
+            margin-bottom: 12px;
+            text-align: center;
+        }
+        .subtitle {
+            color: var(--tw3);
+            font-size: var(--nd);
+            font-weight: 300;
+            margin-top: 0;
+            margin-bottom: 35px;
+            text-align: center;
+        }
+        .email-image {
+            width: 132px;
+            height: 132px;
+            border-radius: 50%;
+            background-color: #fdb4a5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        .email-image img {
+            width: 70%;
+            background:#fdb4a5 ;
+        }
+        .resend {
+            font-size: var(--sm);
+        }
+        .resend span{
+            color: var(--tw4);
+        }
+        .resend a {
+            color: var(--tw5);
+            text-decoration: none;
+        }
+        .primary-buttom {
+            background-color: var(--tw4);
+            border-radius: 8px;
+            border: none;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: var(--md);
+            font-weight: bold;
+            height: 50px;
+        }
+        .login-buttom {
+            margin-top: 14px;
+            margin-bottom: 30px;
+            width: 300px;
+        }
+        @media (max-width: 600px) {
+            .logo {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+<div class="login">
+        <div class="form-container">
+            <img src="/Logo_of_TWICE.svg.png" alt="logo" 
+            class="logo">
+            <h1 class="title">E-mail has been sent</h1>
+            <p class="subtitle">Please check your inbox for instructions on how reset the password</p>
+        <div class="email-image">
+            <img src="https://i.pinimg.com/originals/44/bb/9d/44bb9d6d4ba7c4d341e8e645e31af957.png" alt="email">
+        </div>
+
+        <button class="primary-buttom
+        login-buttom">login</button>
+
+        <p class="resend">
+            <span>Didnt receive the E-mail?</span>
+            <a href="/">Resend</a>
+        </p>
+    </div>
+</div>
+
+</html>

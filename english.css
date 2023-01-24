@@ -1,0 +1,691 @@
+:root {
+    --tw1:#a6fce6;
+    --tw2:#8dc5d3;
+    --tw3:#55acf3;
+    --tw4:#6096fa;
+    --tw5:#0d4ea3;
+    --bak:#cbece9;
+    --tab:#f7eaea;
+    --sm: 14px;
+    --md: 16px;	
+    --lg: 18px;
+}
+body {
+    margin: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=105818), auto;       
+}
+* {
+background: var(--bak);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px 5px;
+    border-bottom: 3px solid var(--tw3);
+    }
+    
+/*desktop*/
+.inactive {
+    display: none;
+}
+
+.disc {
+    color: var(--tw5);
+    padding-left: 100px;
+    padding-top: 38px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.categories {
+    padding-left:200px;
+    background-color: var(--tw2);
+    padding-bottom: 20px;
+    border-bottom: 3px solid var(--tw3);
+}
+
+.korean {
+    width: 200px;
+    display: inline-block;
+    margin-right: 100px;
+    background-color: var(--tw2
+    );
+    margin-top: 10px;
+}
+.japanese {
+    width: 200px;
+    display: inline-block;
+    margin-right: 100px;
+    background-color: var(--tw2
+    );    
+    margin-top: 10px;
+} 
+.english {
+    width: 180px;
+    display: inline-block;
+    margin-right: 100px;
+    background-color: var(--tw2);
+    margin-top: 10px;
+}
+.gif {
+    width: 80px ;
+    background-color: var(--tw2);
+    margin-right: 0;
+    padding-top: 20px;
+    padding-bottom: 70px; 
+;}
+.gif3 {
+    width: 80px ;
+    position: absolute;
+    margin-top: 100px;
+    background-color: var(--tw2);
+    margin-left: -150px;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;  
+;}
+.gif1 {
+    width: 45px;
+    margin-bottom:-14px;
+}
+
+.k{
+    background-color: var(--tw5);
+    margin-left:60px;
+    color: #ffffff;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.k:hover{
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+    background-color: var(--tw4);
+}
+.k-flag {
+    width: 20px;
+    padding-top: 10px;
+    background-color: var(--tw2);
+}
+.darken
+  {
+      width: 100%;
+      height: calc(100%);
+      position: fixed;
+      top: 0;
+      background-color: rgba(255, 130, 161, 0.5);
+  }
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    background-color: #f1c0c0;
+    border: 1px solid var(--tw4);
+}
+
+::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: var(--tw3);
+    border: 1px solid var(--tw4);
+}
+
+.menu {
+display: none;
+}
+.menu {
+width:70px ;
+}
+.logo {
+width: 70px;
+}
+.shopping-cart {
+width: 50px;
+}
+.shopping-cart:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+        
+
+}
+.navbar-left ul, 
+.navbar-right ul {
+list-style: none;
+padding: 0;
+margin: 8px;
+display: flex;
+align-items: center;
+height: 60px;
+}
+.navbar-left {
+display: flex;
+}
+.navbar-left ul {
+margin: 8px;    
+}
+.navbar-left ul li a, 
+.navbar-left ul li a {
+text-decoration: none;
+color: var(--tw3);
+border: 1px solid var(--bak);
+padding:8px;
+border-radius: 8px;
+}
+.navbar-left ul li a:hover, 
+.navbar-left ul li a:hover {
+cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+border: 2px solid var(--tw5);
+color: var(--tw5);
+}
+.navbar-email {
+color: var(--tw3);
+cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+font-size: var(--sm);
+margin-right: 12px;
+}
+.navbar-email:hover {
+    color: var(--tw5);
+}
+--.navbar-shopping-cart {
+position: relative;
+}
+--.navbar-shopping-cart div {
+width: 15px;
+height: 15px;
+background-color: var(--tw3);
+border-radius: 50%;
+font-size: var(--sm);
+font-weight: bold;
+position: absolute;
+top: 0px;
+display: flex;
+justify-content: center;
+}  
+
+.desktop-menu {
+position: absolute;
+top: 78px;
+right: 30px;
+width: 100px;
+height: auto;
+border: 1px solid var(--tw5);
+border-radius: 6px;
+padding: 20px;
+box-shadow: 0px 0px 400px 2000px rgba(133, 37, 61, 0.507);
+}
+.desktop-menu ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.desktop-menu ul li{
+text-align: end;
+
+}
+.desktop-menu ul li:nth-child(1),.desktop-menu ul li:nth-child(2) {
+font-weight: bold;
+}
+
+.desktop-menu ul li:last-child {
+padding-top: 20px;
+border-top: 1px solid var(--tw4);
+}
+.desktop-menu ul li:last-child a {
+color: var(--tw5); 
+font-size: var(--sm);
+}
+.desktop-menu ul li:last-child a:hover {
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;    
+    background-color: var(--tw3); 
+    border-radius: 2px;
+    }
+.desktop-menu ul li a {
+color: var(--tw3);
+text-decoration: none;
+margin-bottom: 20px;
+display: inline-block;
+font-weight: bold;
+}
+.desktop-menu ul li a:hover {
+    color: var(--tw5);
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;    
+}
+
+
+
+/*mobile*/
+.mobile-menu {
+    position: absolute;
+    top: 80px;
+    padding: 24px;
+    left: 0;
+    width: 100%;
+}
+.mobile-menu a {
+    text-decoration: none;
+    color: var(--tw4);
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.mobile-menu a:hover {
+    color:var(--tw5)
+}
+.mobile-menu ul {
+    padding: 0;
+    margin: 24px 0 0;
+    list-style: none;
+}
+
+.mobile-menu ul:nth-child(1) {
+    border-bottom: 1px solid var(--tw3);
+}
+.mobile-menu ul:nth-child(3) {
+position: absolute;
+bottom: 0;
+}
+
+.mobile-menu ul li {
+    margin-bottom: 24px;
+}
+.email {
+    font-size: var(--sm);
+    font-weight: 300 !important;
+}
+.sign-out {
+    color: var(--tw5)!important;
+}
+
+.primary-button {
+    background-color: var(--tw4);
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    }
+
+.primary-button:hover{
+    background-color: var(--tw5);
+}
+.play:hover{
+}
+    #shoppingCartContainer {
+        padding: 0 24px;
+    }
+
+    .title-container {
+        display:flex;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .title-container img {
+        transform: rotate(0deg)
+    }
+    .order {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 16px;
+        align-items: center;
+        background-color: var(--tw4);
+        margin-bottom: 12px;
+    }
+    .order p:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+    }
+    .order p:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+    }
+    .order p span:nth-child(1) {
+        font-size: var(--md);
+        font-weight: bold;
+    }
+
+    .order p:nth-child(2) {
+        text-align: end;
+        font-weight: bold;
+    }
+    .shopping-cart {
+        display: grid;
+        grid-template-columns: auto 1fr auto auto;
+        gap: 4px;
+        margin-bottom: 24px;
+        align-items: center;
+        
+    }
+    .lov{
+        display: grid;
+        grid-template-columns: auto 1fr auto auto;
+        gap: 4px;
+        margin-bottom: 24px;
+        align-items: center;
+        width: 50px;
+    }
+    .lovely:hover{
+        cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+    }
+    
+    .shopping-cart figure{
+        margin: 0;
+    }
+    .shopping-cart figure img {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .shopping-cart p:nth-child(2) {
+        color: var(--tw5);
+        margin-right: 120px;
+        margin-left: 15px;
+    }
+    .shopping-cart p:nth-child(3) {
+        font-size: var(--md);
+        font-weight: bold;
+        color: var(--tw3);
+    }
+    .product-info-aside {
+        margin: 5px 24px 0 24px;
+    }
+
+    #shoppingCartContainer {
+        width: 360px;
+        padding-bottom: 24px;
+        position: absolute;
+        right: 0;
+        box-sizing: border-box;
+        border: 2px solid var(--tw5);
+        border-radius: 26px;
+        /*padding: 0 24px;*/
+        background-color: var(--bak);
+        box-shadow: 0px 0px 400px 2000px rgba(133, 37, 61, 0.507);
+        /*padding: 0 24px;*/
+        transition: opacity 6s, visibillity .6s ease-in-out;
+    }
+
+    #productDetail {
+        width: 360px;
+        padding-bottom: 24px;
+        position: fixed;
+        top: 30px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 20px;
+        z-index: 3;
+        background-color: var(--bak);
+        box-shadow: 0px 0px 400px 2000px rgba(133, 37, 61, 0.507);
+        /*padding: 0 24px;*/
+    }
+
+    .close {
+        width: 15px;
+    }
+    .play {
+        width: 20px;
+        margin-right: 5px;
+    }
+    
+    .title {
+        font-size: var(--lg);
+        font-weight: bold;
+    }
+    .lovely {
+        width: 30px;
+        height: 20px;
+        padding-top: 20px;
+    }
+    .order p {
+        background-color: var(--tw4);
+    }
+    .order span {
+        background-color: var(--tw4);
+    }
+    .aside-close img {
+        background: white;
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        z-index: 2;
+        padding: 12px;
+        border-radius: 50%;
+    }
+    .aside-close:hover {
+        cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+    }
+
+    aside > img:nth-child(2) {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        border-radius: 0 0 20px;
+        border-radius: 24px;
+    } 
+
+    /*details*/
+    .primary-button {
+    background-color: var(--tw4);
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    }
+    .play-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+#productDetail .product-info {
+        margin: 5px 24px 0 24px;
+    }
+#productDetail .product-info p:nth-child(1) {
+        color: var(--tw5);
+        font-weight: bold;
+        font-size: var(--md);
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+#productDetail .product-info p:nth-child(2) {
+        color: var(--tw4);
+        font-weight: bold;
+        font-size: var(--sm);
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+#productDetail .product-info p:nth-child(3) {
+        color: var(--tw3);
+        font-weight: bold;
+        font-size: var(--sm);
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+#productDetail .product-info p:nth-child(4),
+#productDetail .product-info p:nth-child(5),
+#productDetail .product-info p:nth-child(6),
+#productDetail .product-info p:nth-child(7),
+#productDetail .product-info p:nth-child(8),
+#productDetail .product-info p:nth-child(9) {
+    
+        color: var(--tw2);
+        font-weight: bold;
+        font-size: var(--sm);
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+    .play {
+        width: 14px;
+        background-color: var(--tw4);
+    }
+    .close {
+        width:15px;
+    }
+    .signal {
+        width: 300px;
+        border-radius: 24px;
+    }
+
+    .product-detail-close img {
+        background: white;
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        z-index: 2;
+        padding: 12px;
+        border-radius: 50%;
+    }
+    .product-detail-close img:hover {
+        cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;
+        
+    }
+
+    .product-card:hover {
+        cursor: url(http://www.rw-designer.com/cursor-extern.php?id=93682), pointer;        
+    }
+   
+    #productDetail .product-info > img:nth-child(2) {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        border-radius: 0 0 20px;
+        border-radius: 24px;
+    }  
+
+    
+/* ALBUMES*/
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,240px);
+    gap: 26px;
+    place-content: center;
+    margin-top: 30px;
+}
+.product-card {
+    width: 240px;
+    border-radius: 10px;
+    
+}
+.product-card img {
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+.product-card .product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.product-card .product-info figure img {
+    width: 35px;
+    height: 35px; 
+    }
+.product-card .product-info figure img:hover {
+background-color: var(--tw4);
+    }
+.product-card .product-info div p:nth-child(1){
+    font-weight: bold;
+    font-size: var(--md);
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.product-card .product-info div p:nth-child(2){
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--tw5);
+}
+
+
+
+.infobox {
+    color: var(--tw5);
+    margin-left:500px;
+    width: 80px;
+    border-collapse: collapse;
+    
+}
+table {
+    width: 700px;
+    display: table;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: var(--tw4);
+}
+
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid var(--tw5);
+    background-color: var(--tab);
+
+ }
+
+ @media (max-width: 640px) {
+    .categories {
+        display:none;}
+    .disc {
+        padding-left: 200px;
+        padding-top: 18px;
+        }
+    }
+
+@media (max-width: 640px ) {
+.cards-container {
+    grid-template-columns: repeat(auto-fit,140px);
+    }
+    .product-card {
+    width: 140px;
+    }
+    .product-card img {
+    width: 140px;
+    height: 140px;
+    }
+}
+.product-card img:hover {
+    border: 3px solid var(--tw5);
+}
+@media (max-width: 640px) {
+.menu {
+    display: block;
+}
+.navbar-left ul {
+    display: none;
+}
+.navbar-email {
+    display: none;
+}
+.desktop-menu {
+    display: none;
+}
+.infobox {
+    width: 300px;
+    margin-left:100px;
+}
+table {
+ width:300px;
+}
+
+aside {
+    width: 100%;
+}
+}
+
+@media (min-width: 641px) {
+    .mobile-menu {
+        display: none;
+    }
+}

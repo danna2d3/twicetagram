@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>LIKEY</title>
+    <style>
+        :root {
+            --tw1:#fccfa6;
+            --tw2:#fdb3a5;
+            --tw3:#fe97a4;
+            --tw4:#fe7ba3;
+            --tw5:#ff5fa2;
+            --bak:#ecdcd3;
+            --sm: 14px;
+            --md: 16px;	
+            --lg: 18px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Fuzzy Bubbles', cursive;            
+        }
+    * {
+    background: var(--bak);
+    }
+    .primary-button {
+    background-color: var(--tw4);
+    border-radius: 8px;
+    border: none;
+    color: #ffffff;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    }
+    .title-container {
+        display:flex;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    --.title-container img {
+        transform: rotate(180deg)
+    }
+    .order {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 16px;
+        align-items: center;
+        background-color: var(--tw4);
+        margin-bottom: 12px;
+    }
+    .order p:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+    }
+    .order p:nth-child(1) {
+        display: flex;
+        flex-direction: column;
+    }
+    .order p span:nth-child(1) {
+        font-size: var(--md);
+        font-weight: bold;
+    }
+
+    .order p:nth-child(2) {
+        text-align: end;
+        font-weight: bold;
+    }
+    .shopping-cart {
+        display: grid;
+        grid-template-columns: auto 1fr auto auto;
+        gap: 16px;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+    .shopping-cart figure{
+        margin: 0;
+    }
+    .shopping-cart figure img {
+        width: 70px;
+        height: 70px;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+    .shopping-cart p:nth-child(2) {
+        color: var(--tw5);
+    }
+    .shopping-cart p:nth-child(3) {
+        font-size: var(--md);
+        font-weight: bold;
+        color: var(--tw3);
+    }
+    .product-info {
+        margin: 5px 24px 0 24px;
+    }
+
+    .product-detail {
+        width: 360px;
+        padding-bottom: 24px;
+        position: absolute;
+        right: 0;
+    }
+    .close {
+        width: 15px;
+    }
+    .play {
+        width: 20px;
+        background-color: var(--tw4);
+    }
+    .title {
+        font-size: var(--lg);
+        font-weight: bold;
+    }
+    .lovely {
+        width: 60px;
+    }
+    .order p {
+        background-color: var(--tw4);
+    }
+    .order span {
+        background-color: var(--tw4);
+    }
+    .product-detail-close img {
+        background: white;
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        top: 24px;
+        left: 24px;
+        z-index: 2;
+        padding: 12px;
+        border-radius: 50%;
+    }
+    .product-detail-close:hover {
+        cursor: pointer;
+    }
+
+    .product-detail > img:nth-child(2) {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        border-radius: 0 0 20px;
+        border-radius: 24px;
+    } 
+    @media (max-width:640px) {
+    .product-detail {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <aside class="product-detail">
+        <div class="title-container">
+            <img src="./MovelyTransparent.webp" alt="arrow" class="lovely">
+            <p class="title">TWICETAGRAM</p>
+        </div>
+        <div class="twice-content">
+    </div>
+
+        <div class="shopping-cart">
+            <figure>
+                <img src="./LIKEY.jpg" alt="">
+            </figure>
+            <p>LIKEY</p>
+            <p>3:28</p>
+            <img src="./close.png" alt="" class="close">
+        </div>
+        <div class="shopping-cart">
+            <figure>
+                <img src="./LIKEY.jpg" alt="">
+            </figure>
+            <p>LIKEY</p>
+            <p>3:28</p>
+            <img src="./close.png" alt=""class="close">
+        </div>
+        <div class="shopping-cart">
+            <figure>
+                <img src="./LIKEY.jpg" alt="">
+            </figure>
+            <p>LIKEY</p>
+            <p>3:28</p>
+            <img src="./close.png" alt=""class="close">
+        </div>
+    </div>
+    <div class="order">
+        <p>
+            <span>13 canciones</span>
+        </p>
+        <p>44 min</p>
+      </div>  
+      <button class="primary-button play-button">
+        <img src="./149125.png" alt="play" class="play">
+        Play
+        </button>
+    </aside> 
+</body>
+</html>

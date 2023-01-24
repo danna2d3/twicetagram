@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>Twicetagram.com</title>
+    <style>
+        :root {
+            --tw1:#fccfa6;
+            --tw2:#fdb3a5;
+            --tw3:#fe97a4;
+            --tw4:#fe7ba3;
+            --tw5:#ff5fa2;
+            --bak:#ecdcd3;
+            --sm: 14px;
+            --md: 16px;	
+            --lg: 18px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Fuzzy Bubbles', cursive;            
+        }
+    * {
+    background: var(--bak);
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 24px;
+        border-bottom: 1px solid var(--tw2);
+    }
+    .menu {
+        display: none;
+    }
+    .menu {
+        width:70px ;
+    }
+    .logo {
+        width: 70px;
+    }
+    .shopping-cart {
+        width: 20px;
+    }
+    .navbar-left ul, 
+    .navbar-right ul {
+        list-style: none;
+        padding: 0;
+        margin: 8px;
+        display: flex;
+        align-items: center;
+        height: 60px;
+    }
+    .navbar-left {
+        display: flex;
+    }
+    .navbar-left ul {
+        margin: 8px;    
+    }
+    .navbar-left ul li a, 
+    .navbar-left ul li a {
+        text-decoration: none;
+        color: var(--tw3);
+        border: 1px solid var(--bak);
+        padding:8px;
+        border-radius: 8px;
+    }
+    .navbar-left ul li a:hover, 
+    .navbar-left ul li a:hover {
+        border: 1px solid var(--tw5);
+        color: var(--tw5);
+    }
+    .navbar-email {
+        color: var(--tw3);
+        font-size: var(--sm);
+        margin-right: 12px;
+    }
+    --.navbar-shopping-cart {
+        position: relative;
+    }
+    --.navbar-shopping-cart div {
+        width: 15px;
+        height: 15px;
+        background-color: var(--tw3);
+        border-radius: 50%;
+        font-size: var(--sm);
+        font-weight: bold;
+        position: absolute;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+    }  
+
+    @media (max-width: 640px) {
+        .menu {
+            display: block;
+        }
+        .navbar-left ul {
+            display: none;
+        }
+        .navbar-email {
+            display: none;
+        }
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="./Menu_icon_icon-icons.com_71858.png" alt="menu" class="menu">
+
+        <div class="navbar-left">
+            
+            <img src="./Logo_of_TWICE.svg.png" alt="logo" class="logo">        
+            <ul>
+                <li>
+                    <a href="/">Members</a>
+                </li>
+
+                <li>
+                    <a href="/">Albums</a>
+                </li>
+                <li>
+                    <a href="/">Once</a>
+                </li>
+                <li>
+                    <a href="/">Youtube</a>
+                </li>
+                <li>
+                    <a href="/">Spotify</a>
+                </li>
+                <li>
+                    <a href="/">Insta</a>
+                </li>
+                <li>
+                    <a href="/">JYP</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li
+                class="navbar-email">zyozyo@twicetagram.com</li>
+                <li class="navbar-shopping-cart">
+                    <img src="./jyp-entertainment-logo-6C494A92E0-seeklogo.com.png" alt="shopping-cart" class="shopping-cart">
+                    <div></div>   
+                </li>         
+            </ul>
+        </div>
+    </nav>    
+</body>
+</html>

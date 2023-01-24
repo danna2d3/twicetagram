@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        :root {
+            --tw1:#fccfa6;
+            --tw2:#fdb3a5;
+            --tw3:#fe97a4;
+            --tw4:#fe7ba3;
+            --tw5:#ff5fa2;
+            --bak:#ecdcd3;
+            --sm: 14px;
+            --md: 16px;	
+            --lg: 18px;
+        }
+        body {
+            margin: 0;
+            font-family: 'Fuzzy Bubbles', cursive;            
+        }
+    * {
+    background: var(--bak);
+    }
+
+    .desktop-menu {
+        width: 100px;
+        height: auto;
+        border: 1px solid var(--tw5);
+        border-radius: 6px;
+        padding: 20px;
+    }
+    .desktop-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .desktop-menu ul li{
+        text-align: end;
+        
+    }
+    .desktop-menu ul li:nth-child(1),.desktop-menu ul li:nth-child(2) {
+        font-weight: bold;
+    }
+
+    .desktop-menu ul li:last-child {
+        padding-top: 20px;
+        border-top: 1px solid var(--tw4);
+    }
+    .desktop-menu ul li:last-child a {
+        color: var(--tw5); 
+        font-size: var(--sm);
+    }
+.desktop-menu ul li a {
+    color: var(--tw3);
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+    </style>
+</head>
+<body>
+    <div class="desktop-menu">
+        <ul>
+            <li>
+                <a href="/" class="title">My songs</a>
+            </li>
+
+            <li>
+                <a href="/">My account</a>
+            </li>
+
+            <li>
+                <a href="/">sign out</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
